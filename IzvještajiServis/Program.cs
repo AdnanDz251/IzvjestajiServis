@@ -13,18 +13,18 @@ namespace IzvještajiServis
         {
             var exitCode = HostFactory.Run(x =>
             {
-                x.Service<Practise>(s =>
+                x.Service<Pokretac>(s =>
                 {
-                    s.ConstructUsing(practise => new Practise());
+                    s.ConstructUsing(practise => new Pokretac());
                     s.WhenStarted(practise => practise.Start());
                     s.WhenStopped(practise => practise.Stop());
                 });
 
                 x.RunAsLocalSystem();
 
-                x.SetServiceName("PractiseService");
-                x.SetDisplayName("Sta the Briga");
-                x.SetDescription("Just Practising My Services.");
+                x.SetServiceName("IzvještajServis");
+                x.SetDisplayName("Servis za Izvještaje");
+                x.SetDescription("Servis koji periodično šalje izvještaje");
             });
 
             int exitCodeValue = (int)Convert.ChangeType(exitCode, exitCode.GetTypeCode());

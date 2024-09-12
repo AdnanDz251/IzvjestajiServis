@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Konfig>
+	<BazaInfo>
+		<Server>ARGON-PC-03</Server>
+		<Baza>ArgonParkingSistemDB_TrgAustrije</Baza>
+		<Korisnik>adnanSQL</Korisnik>
+		<Sifra>Argon123</Sifra>
+	</BazaInfo>
+	
+	<VrijemeInfo>
+		<Dan>
+			<Aktivan>1</Aktivan>
+			<Datum>2024-09-01</Datum>
+		</Dan>
+		<Sedmica>
+			<Aktivan>1</Aktivan>
+			<Datum>2024-09-01</Datum>
+		</Sedmica>
+		<Mjesec>
+			<Aktivan>1</Aktivan>
+			<Datum>2024-09-01</Datum>
+		</Mjesec>
+		<Godina>
+			<Aktivan>1</Aktivan>
+			<Datum>2024-09-01</Datum>
+		</Godina>
+	</VrijemeInfo>
+
+	<MailInfo>
+		<Posiljalac></Posiljalac>
+		<Primalac></Primalac>
+		<Port></Port>
+		<server></server>
+	</MailInfo>	
+</Konfig>

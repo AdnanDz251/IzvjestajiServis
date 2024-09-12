@@ -8,11 +8,11 @@ using System.Timers;
 
 namespace IzvještajiServis
 {
-    public class Practise
+    public class Pokretac
     {
         private readonly Timer _timer;
 
-        public Practise()
+        public Pokretac()
         {
             _timer = new Timer(3000) { AutoReset = true };
             _timer.Elapsed += TimerElapsed;
