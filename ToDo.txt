@@ -1,0 +1,10 @@
+1.) make a DB Connection "Server=ARGON-PC-03;Database=ArgonParkingSistemDB_TrgAustrije;User Id=adnanSQL;Password=Argon123;"
+2.) make a timer for every day
+3.) set-up a config file
+4.) read from config
+5.) set-up write to excel file
+6.) set-up stored procedure generator
+7.) set-up excel or pdf option
+8.) set-up mailer
+9.) TEST TEST TEST
+10.)
